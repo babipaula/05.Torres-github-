@@ -306,4 +306,13 @@ textarea{
         width: 40px;
     }
 
+    #Servicos .card{
+        height: 10rem;
+
+    }
+
+    #Servicos .card h4{
+        font-size: 0.90rem;
+    }
+
 }
