@@ -97,6 +97,10 @@ textarea{
     margin-bottom: 2rem;
 }
 
+#Portfolio .card img{
+    max-width: 119.5px;
+}
+
 #vejaMais{
     margin-top: 20rem;
 }
