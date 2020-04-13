@@ -1,0 +1,277 @@
+.clear{
+	clear: both;
+}
+
+h3{
+    color: #1a237e;
+}
+
+p{
+    color: #212121;
+    font-size: 1rem;
+}
+
+input {
+    width: 75%;
+}
+
+textarea{
+    width: 75%;
+}
+
+.borda {
+    border: 0.5px solid grey;
+}
+
+#Menu_mobile{
+    display: none;
+}
+
+#Menu_desktop{
+
+    background-color: #1a237e ;
+    color: #d6bb0e;
+   /* display: none;*/
+
+}
+
+#Menu_desktop a{
+    text-decoration: none;
+    color: #d6bb0e;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#Menu_desktop li:hover {
+
+    background-color: #283593 ;
+
+}
+
+#Menu_desktop_logo{
+    display: flex;
+    height: 3rem;
+    
+}
+
+#Menu_desktop_logo img {
+
+    margin: 1.5rem;
+    width: 9rem;
+    height: 3rem;
+    display: none;
+    
+}
+
+#Menu_desktop_lista li{
+    display: inline-block;
+    padding: 1.5rem;
+
+}
+
+.conteudo{
+    padding-top: 4.5rem;
+    height: 39rem;
+}
+
+
+.card{
+	height: 25rem;
+    font-size:0.80rem;
+    color: #212121;
+}
+
+#Servicos{
+    padding-top: 4rem;
+    margin: 0rem 7rem;
+}
+
+#Portfolio{
+    padding-top: 4rem;
+    margin: 0rem 7rem;
+    margin-top: 5rem;
+}
+
+#Portfolio .card{
+    margin-bottom: 2rem;
+}
+
+#vejaMais{
+    margin-top: 20rem;
+}
+
+#Banner_row{
+    background-color: #1a237e;
+    background-image: url('Imagens/Banner2.png');
+    background-size: cover;
+    background-position: bottom;
+    height: 40rem;
+    display: flex;
+    
+}
+
+
+#logo_img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    width: 30%;
+    height: 30%;
+}
+
+.controle{
+	padding: 0.5rem;
+	background-color:  #1a237e;
+}
+
+.carousel-control-prev{
+    margin-left: -7rem;
+}
+
+.carousel-control-next{
+    margin-right: -7rem;
+}
+
+.card h4{
+    padding: 1rem;
+    color: #1a237e;
+}
+
+.carousel-indicators{
+    margin-bottom: -1.5rem;
+    background-color:  #1a237e;
+    padding: 0rem;
+    visibility: hidden;
+   
+}
+
+#Sobre {
+    padding-top: 4rem;
+    margin: 0rem 7rem;
+}
+
+#Contato{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    padding: 10rem;
+}
+
+#rodape{
+    background-color: #1a237e;
+}
+
+#rodape p{
+    color: #d6bb0e;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+
+}
+
+/* large - display 3 */
+.carousel-inner.vv-3 .carousel-item.active,
+.carousel-inner.vv-3 .carousel-item-next,
+.carousel-inner.vv-3 .carousel-item-prev {
+	display: flex;
+}
+
+@media (min-width:992px){
+	.carousel-inner.vv-3 .carousel-item-right.active,
+	.carousel-inner.vv-3 .carousel-item-next {
+	transform: translateX(33%);
+	}
+
+	.carousel-inner.vv-3 .carousel-item-left.active,
+	.carousel-inner.vv-3 .carousel-item-prev {
+	transform: translateX(-33%);
+	}
+
+	.carousel-inner.vv-3 .carousel-item-right,
+	.carousel-inner.vv-3 .carousel-item-left {
+	transform: translateX(0);
+	}
+}
+
+@media screen and (max-width:1024px){
+
+	#Menu_desktop{
+		display: none;
+	}
+
+	#Menu_mobile{
+		display: block;
+	}
+
+	#Menu_mobile p{
+		display: inline;
+		float: center;
+
+	}
+
+	#Menu_mobile  h3{
+		cursor: pointer;
+		color: #d6bb0e;
+		position: absolute;
+		right: 2rem;
+		top: 1rem;
+	}
+
+	#Menu_mobile  ul{
+		position: absolute;
+		top: 4rem;
+		right: 0.5rem;
+		list-style: none;
+		width: 104%;
+		display: none;
+	}
+	#Menu_mobile  li{
+		border: 1px solid #d6bb0e;
+		padding: 1rem 2rem;
+		background-color:#1a237e ;
+		
+	}
+
+	#Menu_mobile  li:hover{
+
+		background-color:#283593;
+		
+    }
+
+    
+    
+    #Menu_mobile a {
+        color:#d6bb0e;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    #logo_img{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7rem;
+        width: 50%;
+        height: 50%;
+    }
+
+    #Dados_contato{
+        padding-top: 3rem;
+    }
+
+
+    #Portfolio .card{
+        height: 45rem;
+        margin-top: 1rem;
+    }
+
+    #Contato{
+
+        margin-top: 4rem;
+        padding: 5rem 10rem;
+    }
+
+    #vejaMais{
+        margin-top: 0rem;
+    }
+
+}
