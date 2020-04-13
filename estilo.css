@@ -195,17 +195,17 @@ textarea{
 @media screen and  (max-width:992px){
 	.carousel-inner.vv-3 .carousel-item-right.active,
 	.carousel-inner.vv-3 .carousel-item-next {
-	transform: translateX(100%);
+	transform: translateX(0%);
 	}
 
 	.carousel-inner.vv-3 .carousel-item-left.active,
 	.carousel-inner.vv-3 .carousel-item-prev {
-	transform: translateX(-100%);
+	transform: translateX(-0%);
 	}
 
 	.carousel-inner.vv-3 .carousel-item-right,
 	.carousel-inner.vv-3 .carousel-item-left {
-	transform: translateX(100);
+	transform: translateX(0%);
 	}
 }
 
@@ -303,7 +303,7 @@ textarea{
     }
 
     .carousel-item{
-        width: 50rem;
+        width: 100%;
     }
 
 }
