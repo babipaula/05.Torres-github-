@@ -79,6 +79,7 @@ textarea{
 	height: 25rem;
     font-size:0.80rem;
     color: #212121;
+    cursor: pointer;
 }
 
 #Servicos{
