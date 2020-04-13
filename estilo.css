@@ -198,22 +198,6 @@ textarea{
 	}
 }
 
-@media screen and  (max-width:992px){
-	.carousel-inner.vv-3 .carousel-item-right.active,
-	.carousel-inner.vv-3 .carousel-item-next {
-	transform: translateX(0%);
-	}
-
-	.carousel-inner.vv-3 .carousel-item-left.active,
-	.carousel-inner.vv-3 .carousel-item-prev {
-	transform: translateX(-0%);
-	}
-
-	.carousel-inner.vv-3 .carousel-item-right,
-	.carousel-inner.vv-3 .carousel-item-left {
-	transform: translateX(0%);
-	}
-}
 
 @media screen and (max-width:1024px){
 
