@@ -303,7 +303,7 @@ textarea{
     }
 
     #Servicos .carousel-item{
-        width: 1.25rem;
+        width: 1rem;
     }
 
     #Servicos .card{
@@ -313,6 +313,10 @@ textarea{
 
     #Servicos .card h4{
         font-size: 0.90rem;
+    }
+
+    #Servicos .card p{
+        font-size: 0.85rem;
     }
 
 }
