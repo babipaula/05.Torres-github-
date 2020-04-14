@@ -5,7 +5,7 @@
         <title> Serviços Torres </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../estilo.css">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -26,51 +26,120 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
+
     <body>
         <!--Menu-->
+       
+        <section class="container-fluid" id="Menu">
 
-       <div class="container-fluid" id="Menu">
+            <div class="row desktop" id="Menu_desktop">
+                
+                 <div class="col-3" id="Menu_desktop_logo">
+ 
+                     <img id="Menu_logo_img" class="img-fluid" src="logo.svg">
+                
+                 </div><!--Coluna1 - Menu_desktop_logo-->
+ 
+                 <div class="col-9 d-flex justify-content-end" id="Menu_desktop_lista">
+                     <ul>
+                         <li><a href="index.html#Banner"> HOME </a></li>
+                         <li><a href="index.html#Servicos"> SOLUÇÕES </a></li>
+                         <li><a href="index.html#Sobre"> SOBRE </a></li>
+                         <!-- <li><a href="index.html#Portfolio"> PORTFÓLIO</a></li>-->
+                         <li><a href="index.html#Contato"> CONTATO</a></li>
+                         
+                     </ul>
+ 
+                 </div> <!--Coluna2 - Menu_desktop_lista-->
+ 
+            </div><!--row Menu_desktop-->
+ 
+            <!--Menu Mobile-->
+            <div id="Menu_mobile" class="mobile">
+ 
+                 <h3 id="mobileh3"><i class="fa fa-bars"> </i> </h3>
+                 <ul id="mobileul">
+                     <li><a href="index.html#Banner"> HOME </a></li>
+                     <li><a href="index.html#Servicos"> SOLUÇÕES </a></li>
+                     <li><a href="index.html#Sobre"> SOBRE </a></li>
+                     <!-- <li><a href="index.html#Portfolio"> PORTFÓLIO</a></li>-->
+                     <li><a href="index.html#Contato"> CONTATO</a></li>
+                 </ul>
+ 
+                 <div class="clear"></div>
+             </div> <!--Fim Menu Mobile-->
+ 
+ 
+        </section> <!--Container Menu-->
 
-           <div class="row fixed-top desktop" id="Menu_desktop">
-               
-                <div class="col-3" id="Menu_desktop_logo">
+        <div class="clear">
 
-                    <img id="Menu_logo_img" class="img-fluid" src="logo.svg">
-               
-                </div><!--Coluna1 - Menu_desktop_logo-->
+        </div>
+ 
+       <!--Container Acabamentos-->
+       
+       <div id="Hidraulica" class="container-fluid servicos ">
+          <!--row título-->
+            <div class="row">
+                <div class="col-12 text-center">
+                    
+                </div>
+            </div> <!--Fim row Título-->
+            <br>
+            <br>
+            <!--Row galeria/ Especificação-->
+            <div class="row">
+                <!--Galeria-->
+                <div class="col-lg-6 col-12 text-center">
 
-                <div class="col-9 d-flex justify-content-end" id="Menu_desktop_lista">
+                    <img class="img-fluid" src="imagem.svg">
+
+                </div> 
+
+                <!--Especificação-->
+                <div class="col-lg-6 col-12">
+                    <div class="titulo">
+                        <h3>Acabamentos</h3>
+                    </div>
+                    <br>
                     <ul>
-                        <li><a href="../index.html"> HOME </a></li>
-                        <li><a href="#Servicos"> SOLUÇÕES </a></li>
-                        <li><a href="#Sobre"> SOBRE </a></li>
-                        <li><a href="#Portfolio"> PORTFÓLIO</a></li>
-                        <li><a href="#Contato"> CONTATO</a></li>
-                        
+                        <li>Gesso</li>
+                        <li>Pastilhas</li>
+                        <li></li>
                     </ul>
+                    <br>
+                    <div class="titulo"> 
+                        <h3>Diferenciais</h3>
+                    </div>
+                    <br>
+                    <ul>
+                        <li>Rapidez</li>
+                        <li>Organização</li>
+                        <li>Qualidade</li>
+                        <li>Pontualidade na Entrega</li>
+                    </ul>
+                    <br>
 
-                </div> <!--Coluna2 - Menu_desktop_lista-->
+                    <div class="botao">
+                        <p>
+                            Solicite o seu Orçamento!
+                        </p>
 
-           </div><!--row Menu_desktop-->
-
-           <!--Menu Mobile-->
-           <div id="Menu_mobile" class="mobile">
-
-                <h3 id="mobileh3"><i class="fa fa-bars"> </i> </h3>
-                <ul id="mobileul">
-                    <li><a href="../index.html"> HOME </a></li>
-                    <li><a href="#Servicos"> SOLUÇÕES </a></li>
-                    <li><a href="#Sobre"> SOBRE </a></li>
-                    <li><a href="#Portfolio"> PORTFÓLIO</a></li>
-                    <li><a href="#Contato"> CONTATO</a></li>
-                </ul>
-
-                <div class="clear"></div>
-            </div> <!--Fim Menu Mobile-->
+                    </div>
+                </div>
+            </div> <!--Fim row galeria-->
+            
 
 
-       </div> <!--Container Menu-->
+       </div><!--Fim Container Acabamentos-->
 
+       <section class="container-fluid" id="rodape">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p><i class="far fa-copyright"></i> 2020 Serviços Torres. Todos os direitos Reservados. - Versão 1.01</p>
+                </div>
+            </div>
+        </section>
         
         <script>
 

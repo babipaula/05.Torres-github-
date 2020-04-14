@@ -28,6 +28,7 @@ textarea{
 
 #Menu_mobile{
     display: none;
+    background-color: #1a237e ;
 }
 
 #Menu_desktop{
@@ -171,6 +172,7 @@ h4 a {
 }
 
 #rodape{
+    margin-top: 2rem;
     background-color: #1a237e;
 }
 
@@ -182,12 +184,9 @@ h4 a {
 
 }
 
-#Pisos{
-    position: absolute;
-    margin-top: 6rem;
-    
-    
-}
+
+
+
 
 
 .servicos h5 {
@@ -261,7 +260,8 @@ h4 a {
 	}
 
 	#Menu_mobile{
-		display: block;
+        display: block;
+        background-color: #1a237e ;
 	}
 
 	#Menu_mobile p{
