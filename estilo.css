@@ -109,6 +109,10 @@ textarea{
     background-repeat:no-repeat; 
 }
 
+.circulo:hover{
+    opacity: 0.3;
+}
+
 #img_piso{
     background-image: url('Fotos/WhatsApp Image 2020-04-13 at 12.04.59 (1).jpeg');
 }
