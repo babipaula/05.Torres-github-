@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> Serviços Torres </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../estilo.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/ulg/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <!--Font wesome-->
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!--Menu-->
+
+       <div class="container-fluid" id="Menu">
+
+           <div class="row fixed-top desktop" id="Menu_desktop">
+               
+                <div class="col-3" id="Menu_desktop_logo">
+
+                    <img id="Menu_logo_img" class="img-fluid" src="logo.svg">
+               
+                </div><!--Coluna1 - Menu_desktop_logo-->
+
+                <div class="col-9 d-flex justify-content-end" id="Menu_desktop_lista">
+                    <ul>
+                        <li><a href="../index.html"> HOME </a></li>
+                        <li><a href="#Servicos"> SOLUÇÕES </a></li>
+                        <li><a href="#Sobre"> SOBRE </a></li>
+                        <li><a href="#Portfolio"> PORTFÓLIO</a></li>
+                        <li><a href="#Contato"> CONTATO</a></li>
+                        
+                    </ul>
+
+                </div> <!--Coluna2 - Menu_desktop_lista-->
+
+           </div><!--row Menu_desktop-->
+
+           <!--Menu Mobile-->
+           <div id="Menu_mobile" class="mobile">
+
+                <h3 id="mobileh3"><i class="fa fa-bars"> </i> </h3>
+                <ul id="mobileul">
+                    <li><a href="../index.html"> HOME </a></li>
+                    <li><a href="#Servicos"> SOLUÇÕES </a></li>
+                    <li><a href="#Sobre"> SOBRE </a></li>
+                    <li><a href="#Portfolio"> PORTFÓLIO</a></li>
+                    <li><a href="#Contato"> CONTATO</a></li>
+                </ul>
+
+                <div class="clear"></div>
+            </div> <!--Fim Menu Mobile-->
+
+
+       </div> <!--Container Menu-->
+
+        
+        <script>
+
+            // Logo Menú
+            window.addEventListener('scroll', ()=>{
+                document.getElementById('Menu_logo_img').style.display = "block";
+            });
+
+            //Menú 
+
+            $("#mobileh3").click(function(){
+ 				 $("#mobileul").slideToggle();
+				});
+
+        </script>
+
+    </body>
+</html>

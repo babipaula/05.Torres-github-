@@ -1,6 +1,9 @@
 .clear{
 	clear: both;
 }
+body{
+    color: #212121;
+}
 
 h3{
     color: #1a237e;
@@ -177,6 +180,53 @@ h4 a {
     font-weight: bold;
     padding: 1rem;
 
+}
+
+#Pisos{
+    position: absolute;
+    margin-top: 6rem;
+    
+    
+}
+
+
+.servicos h5 {
+    color: #1a237e;
+}
+.servicos img{
+    margin: 1rem 0;
+    max-height: 25rem;
+}
+.titulo {
+    background-image: url('marcadores/fundo_bolinha.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    padding: 0.5rem;
+    margin-left: -0.75rem;
+}
+
+.titulo h3{
+    margin-left: 0.75rem;
+}
+
+.servicos ul{
+    list-style-image: url('marcadores/marcador.svg');
+}
+
+.botao{
+    cursor: pointer;
+    width: 15rem;
+    padding:0.5rem;
+    background-color: #d6bb0e;
+    border-radius: 30rem;
+}
+.botao p{
+
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-weight: bold;
 }
 
 /* large - display 3 */

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> Serviços Torres </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/ulg/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <!--Font wesome-->
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+
+    <body class="container-fluid borda">
+        <!--Menu-->
+       
+        <section class="container-fluid" id="Menu">
+
+            <div class="row fixed-top desktop" id="Menu_desktop">
+                
+                 <div class="col-3" id="Menu_desktop_logo">
+ 
+                     <img id="Menu_logo_img" class="img-fluid" src="logo.svg">
+                
+                 </div><!--Coluna1 - Menu_desktop_logo-->
+ 
+                 <div class="col-9 d-flex justify-content-end" id="Menu_desktop_lista">
+                     <ul>
+                         <li><a href="#Banner"> HOME </a></li>
+                         <li><a href="#Servicos"> SOLUÇÕES </a></li>
+                         <li><a href="#Sobre"> SOBRE </a></li>
+                         <!-- <li><a href="index.html#Portfolio"> PORTFÓLIO</a></li>-->
+                         <li><a href="#Contato"> CONTATO</a></li>
+                         
+                     </ul>
+ 
+                 </div> <!--Coluna2 - Menu_desktop_lista-->
+ 
+            </div><!--row Menu_desktop-->
+ 
+            <!--Menu Mobile-->
+            <div id="Menu_mobile" class="mobile">
+ 
+                 <h3 id="mobileh3"><i class="fa fa-bars"> </i> </h3>
+                 <ul id="mobileul">
+                     <li><a href="#Banner"> HOME </a></li>
+                     <li><a href="#Servicos"> SOLUÇÕES </a></li>
+                     <li><a href="#Sobre"> SOBRE </a></li>
+                     <!-- <li><a href="index.html#Portfolio"> PORTFÓLIO</a></li>-->
+                     <li><a href="#Contato"> CONTATO</a></li>
+                 </ul>
+ 
+             </div> <!--Fim Menu Mobile-->
+
+        </section> <!--Container Menu-->
+ 
+       <!--Container Pisos-->
+       
+       <div id="Pisos" class="container-fluid servicos ">
+          <!--row título-->
+            <div class="row">
+                <div class="col-12 text-center">
+                    
+                </div>
+            </div> <!--Fim row Título-->
+            <br>
+            <br>
+            <!--Row galeria/ Especificação-->
+            <div class="row">
+                <!--Galeria-->
+                <div class="col-lg-6 col-12 text-center">
+
+                    <img class="img-fluid" src="Fotos/WhatsApp Image 2020-04-13 at 12.04.58 (1).jpeg">
+
+                </div> 
+
+                <!--Especificação-->
+                <div class="col-lg-6 col-12">
+                    <div class="titulo">
+                        <h3>Pisos e Revestimentos</h3>
+                    </div>
+                    <br>
+                    <ul>
+                        <li>Porcelanatos</li>
+                        <li>Vinílicos</li>
+                        <li>Laminados</li>
+                    </ul>
+                    <br>
+                    <div class="titulo"> 
+                        <h3>Diferenciais</h3>
+                    </div>
+                    <br>
+                    <ul>
+                        <li>Rapidez</li>
+                        <li>Organização</li>
+                        <li>Qualidade</li>
+                    </ul>
+                    <br>
+
+                    <div class="botao">
+                        <p>
+                            Solicite o seu Orçamento!
+                        </p>
+
+                    </div>
+                </div>
+            </div> <!--Fim row galeria-->
+            
+
+
+       </div><!--Fim Container Pisos-->
+        
+        <script>
+
+            // Logo Menú
+            window.addEventListener('scroll', ()=>{
+                document.getElementById('Menu_logo_img').style.display = "block";
+            });
+
+            //Menú 
+
+            $("#mobileh3").click(function(){
+ 				 $("#mobileul").slideToggle();
+				});
+
+        </script>
+
+    </body>
+</html>
