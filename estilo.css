@@ -118,7 +118,8 @@ textarea{
 }
 
 #img_pintura{
-
+    
+    background-image: url('Fotos/david-pisnoy-46juD4zY1XA-unsplash.jpg');
 }
 
 #img_construcao{
@@ -128,11 +129,14 @@ textarea{
 }
 
 #img_hidro{
+    background-image: url('Fotos/samuel-sianipar-scUBcasSvbE-unsplash.jpg');
+
 
 }
 
 #img_eletro{
-
+    background-image: url('Fotos/ashes-sitoula-UfEyDdXlRp8-unsplash.jpg');
+    
 }
 
 #img_acabamento{
