@@ -92,6 +92,10 @@ textarea{
 #Servicos .tit{
     padding-left: 7rem;
 }
+.item img{
+    padding-bottom: 2rem;
+
+}
 
 #Portfolio{
     padding-top: 4rem;
@@ -142,15 +146,7 @@ h4 a {
 	padding: 0.5rem;
 	background-color:  #1a237e;
 }
-/*
-.carousel-control-prev{
-    margin-left: -4rem;
-}
 
-.carousel-control-next{
-    margin-right: -2rem;
-}
-*/
 
 .card h4{
     padding: 1rem;
