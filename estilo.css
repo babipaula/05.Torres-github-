@@ -80,7 +80,6 @@ textarea{
 
 
 .card{
-	height: 25rem;
     font-size:0.80rem;
     color: #212121;
     cursor: pointer;
@@ -123,6 +122,7 @@ textarea{
 
 h4 a {
     color: #1a237e;
+    font-size: 1rem;
 
 }
 
@@ -248,7 +248,7 @@ h4 a {
 
 	.carousel-inner.vv-3 .carousel-item-right,
 	.carousel-inner.vv-3 .carousel-item-left {
-	transform: translateX(0);
+	transform: translateX(0%);
 	}
 }
 
@@ -349,10 +349,6 @@ h4 a {
     }
 
 
-    #Servicos .card{
-        height: 20rem;
-
-    }
 
     #Servicos .card h4{
         font-size: 0.90rem;
