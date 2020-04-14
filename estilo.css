@@ -87,7 +87,10 @@ textarea{
 
 #Servicos{
     padding-top: 4rem;
-    margin: 0rem 7rem;
+}
+
+#Servicos .tit{
+    padding-left: 7rem;
 }
 
 #Portfolio{
@@ -139,14 +142,15 @@ h4 a {
 	padding: 0.5rem;
 	background-color:  #1a237e;
 }
-
+/*
 .carousel-control-prev{
-    margin-left: -7rem;
+    margin-left: -4rem;
 }
 
 .carousel-control-next{
-    margin-right: -7rem;
+    margin-right: -2rem;
 }
+*/
 
 .card h4{
     padding: 1rem;
@@ -349,14 +353,5 @@ h4 a {
         margin: 0rem 2rem;
     }
 
-
-
-    #Servicos .card h4{
-        font-size: 0.90rem;
-    }
-
-    #Servicos .card p{
-        font-size: 0.85rem;
-    }
 
 }
