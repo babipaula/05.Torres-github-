@@ -92,6 +92,7 @@ textarea{
 #Servicos .tit{
     padding-left: 7rem;
 }
+
 .item img{
     padding-bottom: 2rem;
 
@@ -184,10 +185,6 @@ h4 a {
     padding: 1rem;
 
 }
-
-
-
-
 
 
 .servicos h5 {
@@ -300,6 +297,9 @@ h4 a {
 		
     }
 
+    #Servicos .tit{
+        padding-left: 3rem;
+    }
     
     
     #Menu_mobile a {
