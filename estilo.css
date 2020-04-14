@@ -98,11 +98,11 @@ textarea{
 .circulo{
     margin: 0 auto;
     display: block;
-    height:12rem ;
-    width: 12rem ;
-    border-radius: 6rem;
-    -o-border-radius:6rem;
-    -moz-border-radius:6rem;
+    height:13rem ;
+    width: 13rem ;
+    border-radius: 6.5rem;
+    -o-border-radius:6.5rem;
+    -moz-border-radius:6.5rem;
     margin-bottom: 2rem;
     background-size: cover;
     background-position:50% 50%;
