@@ -272,6 +272,11 @@ h4 a {
     margin-left: 1rem;
     font-weight: bold;
 }
+#Diferenciais{
+    padding-top: 4rem;
+    padding-left: 6.5rem;
+}
+
 
 /* large - display 3 */
 .carousel-inner.vv-3 .carousel-item.active,
