@@ -145,6 +145,11 @@ textarea{
 
 }
 
+#img_manutencao{
+    background-image: url('Fotos/guilherme-cunha-0ZOtNzDVUZg-unsplash.jpg');
+
+}
+
 #Portfolio{
     padding-top: 4rem;
     margin: 0rem 7rem;
