@@ -421,6 +421,11 @@ h4 a {
         padding-left: 2rem;
     }
 
+    .mySlides img{
+        max-height: 30rem;
+        max-width: 20rem;
+        margin: 0 auto;
+      }
 
 }
 
@@ -445,7 +450,7 @@ h4 a {
     max-width:70%;
     max-width: 70%;
     margin: 0 auto;
-    margin-top: 7rem;
+    margin-top: 6rem;
   }
   
   /* Hide the slides by default */
