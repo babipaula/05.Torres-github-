@@ -94,7 +94,8 @@ textarea{
 }
 
 #Galeria{
-    padding-top: 3rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
     padding-left:6rem;
 }
 
@@ -129,39 +130,44 @@ textarea{
 }
 
 #img_piso{
-    background-image: url('Fotos/WhatsApp Image 2020-04-13 at 12.04.57.jpeg');
+    background-image: url('Fotos/handyman-3546193.jpg');
 }
 
 #img_pintura{
     
-    background-image: url('Fotos/david-pisnoy-46juD4zY1XA-unsplash.jpg');
+    background-image: url('Fotos/repair-5004841.jpg');
 }
 
 #img_construcao{
 
-    background-image: url('Fotos/WhatsApp Image 2020-04-13 at 12.10.04.jpeg');
+    background-image: url('Fotos/architect-3979490.jpg');
 
 }
 
 #img_hidro{
-    background-image: url('Fotos/samuel-sianipar-scUBcasSvbE-unsplash.jpg');
+    background-image: url('Fotos/bathroom-1371961.jpg');
 
 
 }
 
 #img_eletro{
-    background-image: url('Fotos/ashes-sitoula-UfEyDdXlRp8-unsplash.jpg');
+    background-image: url('Fotos/electric-1080584.jpg');
     
 }
 
 #img_acabamento{
 
-    background-image: url('Fotos/WhatsApp Image 2020-04-13 at 12.04.59 (1).jpeg');
+    background-image: url('Fotos/wooden-floor-1336166.jpg');
 
 }
 
 #img_manutencao{
-    background-image: url('Fotos/guilherme-cunha-0ZOtNzDVUZg-unsplash.jpg');
+    background-image: url('Fotos/tool-belt-739152.jpg');
+
+}
+
+#img_seguranca{
+    background-image: url('Fotos/monitoring-1305045.jpg');
 
 }
 
